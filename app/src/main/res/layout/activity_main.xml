@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/grat_bg"
+    >
+
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/imageViewLogo"
+        android:src="@drawable/book_open_page_variant"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressing"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+
+    <TextView
+        android:fontFamily="sans-serif-medium"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageViewLogo"
+        android:textColor="@android:color/white"
+        android:text="EN-FA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

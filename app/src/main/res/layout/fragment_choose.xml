@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    >
+
+
+    <LinearLayout
+        android:padding="9dp"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:text="تعداد لغات مورد نظر خود را انتخاب کنید:"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            tools:ignore="RtlHardcoded" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_15"
+                android:textSize="24sp"
+                android:text="15"
+                android:background="@drawable/choose_num_bg"
+                android:layout_margin="5dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <Button
+                android:id="@+id/btn_20"
+                android:textSize="24sp"
+                android:text="20"
+                android:background="@drawable/choose_num_bg"
+                android:layout_margin="5dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <Button
+                android:id="@+id/btn_25"
+                android:textSize="24sp"
+                android:text="25"
+                android:background="@drawable/choose_num_bg"
+                android:layout_margin="5dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:text="دشواری لغات مورد نظر خود را انتخاب کنید:"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                tools:ignore="RtlHardcoded" />
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/beginner"
+                    android:textSize="20sp"
+                    android:text="ساده"
+                    android:background="@drawable/choose_num_bg"
+                    android:layout_margin="5dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
+
+                <Button
+                    android:id="@+id/normal"
+                    android:textSize="20sp"
+                    android:text="متوسط"
+                    android:background="@drawable/choose_num_bg"
+                    android:layout_margin="5dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
+
+                <Button
+                    android:id="@+id/hard"
+                    android:textSize="20sp"
+                    android:text="سخت"
+                    android:background="@drawable/choose_num_bg"
+                    android:layout_margin="5dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/accept_btn"
+                android:background="@drawable/accept_btn_bg"
+                android:textSize="18sp"
+                android:text="تأیید"
+                android:layout_marginTop="100dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
